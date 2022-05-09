@@ -1,0 +1,81 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>В поддавки играют по правилам русских шашек.
+
+Состав игры:
+1. Игровая доска 64 (8х8) клетки. Клетки двух контрастных цветов, располагающихся по диагоналям. Обозначение игровых клеток буквенно-цифровое (как на шахматной доске).
+2. Шашки двух разных цветов по 12 штук.
+
+Цель игры:
+Партия считается выигранной, если у игрока не осталось ни одной шашки или шашки заблокированы соперником. 
+
+Правила:
+В игре принимают участие 2 игрока. Игроки располагаются на противоположных сторонах доски.
+Выбор цвета игроками определяется случайным образом. Шашки расставляются на трех, ближних к игроку, рядах на темных клетках. Право первого хода принадлежит игроку, который играет белым (светлым) цветом. Ходы осуществляются соперниками поочередно.
+В начале игры все шашки соперников являются простыми. Простые шашки можно перемещать  только вперед по диагоналям на соседнюю свободную клетку. 
+Если простая шашка дошла до последней горизонтали, она становится «дамкой» и обозначается переворачиванием. Дамка может перемещаться по диагоналям на любое количество свободных клеток.
+Взятие шашки соперника производится, переносом через неё своей, в том случае, если она находится на соседней с простой шашкой диагональной клетке и за ней имеется свободное поле. Если после этого хода имеется продолжение для взятия других шашек соперника, ход продолжается. Шашка (шашки) соперника снимается с доски. Взятие шашки соперника может производиться, как вперед, так и назад, и является обязательной.
+Взятие дамкой шашек соперника может осуществляться через любое количество диагональных клеток, при наличии свободного пространства за «жертвой». Если она снова оказывается на одной диагонали рядом или на расстоянии от шашки соперника, за которой находится одно или несколько свободных полей, дамка обязательно должна продолжить взятие последующих и занять любое свободное поле на той же диагонали за последней взятой шашкой. 
+Взятие шашки соперника обязательное, но при наличии нескольких продолжений «боя», выбирается вариант по «правилу большинства», т.е. взятие наибольшего количества шашек соперника
+В тех случаях, когда простая шашка при взятии достигает последнего горизонтального ряда и ей предоставляется возможность дальнейшего взятия шашек, то она обязана тем же ходом продолжать бой, но уже на правах дамки.
+В тех случаях, когда шашка достигла последней горизонтали без взятия и ей после этого предоставляется возможность боя, то она должна бить, при условии, если эта возможность сохранится лишь следующим ходом на правах дамки.</value>
+  </data>
+</root>
